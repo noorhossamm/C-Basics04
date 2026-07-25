@@ -23,6 +23,13 @@
         //}
 
         #endregion
+
+        #region Question06
+        //static void ApplyDiscount(double[] prices)
+        //{
+        //    prices[0] -= 5;
+        //}
+        #endregion
         static void Main(string[] args)
         {
             #region Question01
@@ -55,6 +62,15 @@
             //AddBonusPages(pages);
             //Console.WriteLine(pages);
             // pages = 400 , as this is passing by value [value type] so parameters of function make a copy of the value and any changes made to the parameter inside the function do not affect the original variable outside the function.
+            #endregion
+
+            #region Question06
+            //double[] prices = {25.5 , 40.0 };
+            //ApplyDiscount(prices);
+            //Console.WriteLine(prices[0]);
+            // prices[0] = 20.5 , as this is passing by value [reference type]
+            // different copies of value(original and parameter) but both point to the same place in heap , a change in one causes the change in the other
+
             #endregion
         }
     }
