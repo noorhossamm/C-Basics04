@@ -110,6 +110,12 @@
             //Console.WriteLine($"Title : {title}");
             //Console.WriteLine($"Upper Title:{UpperTitle}");
             #endregion
+
+            #region Question10
+            //string title = "Clean Code";
+            //string title_2 = "Clean Code";
+            //Console.WriteLine(ReferenceEquals(title, title_2));
+            #endregion
         }
     }
 }
