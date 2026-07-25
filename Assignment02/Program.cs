@@ -37,6 +37,14 @@
         //    pages += 50;
         //}
         #endregion
+
+        #region Question08
+        //static void ReplaceArray(ref double[] prices)
+        //{
+        //    prices = new double [] { 10.0, 12.5, 15.0 };
+
+        //}
+        #endregion
         static void Main(string[] args)
         {
             #region Question01
@@ -86,6 +94,14 @@
             //Console.WriteLine(pages);
             // pages = 450 , as this is passing by reference [value type] so the parameter of the function is a reference to the original variable
             // any changes made to the parameter inside the function affect the original variable outside the function while in Q5 they were different copies
+            #endregion
+
+            #region Question08
+            //double[] prices = { 25.5, 40.0};
+            //ReplaceArray(ref prices);
+            //Console.WriteLine(prices.Length);
+            // prices.Length = 3 , as this is passing by reference [reference type]
+            // so the parameter of the function is a reference to the original variable
             #endregion
         }
     }
