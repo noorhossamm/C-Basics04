@@ -130,6 +130,12 @@ namespace Assignment02
             //sb.Replace("Book List", "Library");
             //Console.WriteLine(sb.ToString());
             #endregion
+
+            #region Question13
+            //string title = "Clean Code";
+            //int pages = 464;
+            //Console.WriteLine("Book:" + title + ", Pages:" + pages);
+            #endregion
         }
     }
 }
