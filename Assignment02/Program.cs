@@ -103,6 +103,13 @@
             // prices.Length = 3 , as this is passing by reference [reference type]
             // so the parameter of the function is a reference to the original variable
             #endregion
+
+            #region Question09
+            //string title = "clean code";
+            //string UpperTitle = title.ToUpper();
+            //Console.WriteLine($"Title : {title}");
+            //Console.WriteLine($"Upper Title:{UpperTitle}");
+            #endregion
         }
     }
 }
