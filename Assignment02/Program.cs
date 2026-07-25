@@ -136,6 +136,12 @@ namespace Assignment02
             //int pages = 464;
             //Console.WriteLine("Book:" + title + ", Pages:" + pages);
             #endregion
+
+            #region Question14
+            string title = "Clean Code";
+            int pages = 464;
+            Console.WriteLine($"Book: { title}, Pages: {pages}");
+            #endregion
         }
     }
 }
