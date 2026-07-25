@@ -30,6 +30,13 @@
         //    prices[0] -= 5;
         //}
         #endregion
+
+        #region Question07
+        //static void AddBonusPagesByRef(ref int pages)
+        //{
+        //    pages += 50;
+        //}
+        #endregion
         static void Main(string[] args)
         {
             #region Question01
@@ -71,6 +78,14 @@
             // prices[0] = 20.5 , as this is passing by value [reference type]
             // different copies of value(original and parameter) but both point to the same place in heap , a change in one causes the change in the other
 
+            #endregion
+
+            #region Question07
+            //int pages = 400;
+            //AddBonusPagesByRef(ref pages);
+            //Console.WriteLine(pages);
+            // pages = 450 , as this is passing by reference [value type] so the parameter of the function is a reference to the original variable
+            // any changes made to the parameter inside the function affect the original variable outside the function while in Q5 they were different copies
             #endregion
         }
     }
