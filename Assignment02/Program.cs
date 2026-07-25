@@ -15,6 +15,14 @@
         //    Console.WriteLine($"Book title :{title}");
         //}
         #endregion
+
+        #region Question05
+        //static void AddBonusPages(int pages)
+        //{
+        //    pages += 50;
+        //}
+
+        #endregion
         static void Main(string[] args)
         {
             #region Question01
@@ -40,6 +48,13 @@
 
             #region Question04
             //PrintBookTitle("Clean Code");
+            #endregion
+
+            #region Question05
+            //int pages = 400;
+            //AddBonusPages(pages);
+            //Console.WriteLine(pages);
+            // pages = 400 , as this is passing by value [value type] so parameters of function make a copy of the value and any changes made to the parameter inside the function do not affect the original variable outside the function.
             #endregion
         }
     }
